@@ -6,3 +6,5 @@ def test_contains_duplicate():
     assert not solution.containsDuplicate([1, 2, 3, 4])
     assert solution.containsDuplicate([1, 1, 1, 1])
     assert not solution.containsDuplicate([])
+
+# TODO: Add more test cases
