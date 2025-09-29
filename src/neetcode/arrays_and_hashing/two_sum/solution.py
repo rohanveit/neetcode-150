@@ -9,8 +9,10 @@ class Solution(object):
         for idx, item in enumerate(nums):
             complement = target - item
             if complement in seen.keys():
-                return [idx, seen[complement]]
+                return sorted([idx, seen[complement]])
             seen[item] = idx
+
+        return []
         
         
         
