@@ -2,7 +2,7 @@ Given an array of strings strs, group the
 
 together. You can return the answer in any order.
 
- 
+
 
 Example 1:
 
@@ -28,7 +28,7 @@ Input: strs = ["a"]
 
 Output: [["a"]]
 
- 
+
 
 Constraints:
 

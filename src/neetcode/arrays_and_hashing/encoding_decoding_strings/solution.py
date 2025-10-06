@@ -24,9 +24,9 @@ class Solution:
             output.append(next_str)
             pointer += next_str_len
         return output
-            
 
-        
+
+
 
     def format_number(self, num: int, full_length: int = DELIMITER_LEN) -> str:
         num_digits = len(str(num))

@@ -7,7 +7,7 @@ class Solution:
                 occurences[num] = 1
             else:
                 occurences[num] += 1
-        
+
         # sort by top occurences
         sorted_occs = sorted(occurences.items(), key=lambda tup: tup[1])
         # return key (number)

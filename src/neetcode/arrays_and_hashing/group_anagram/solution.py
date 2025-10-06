@@ -17,5 +17,3 @@ class Solution(object):
                 ret.append([word])
                 seen_strings[word_sorted] = len(ret) - 1
         return ret
-
-        

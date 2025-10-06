@@ -13,6 +13,3 @@ class Solution(object):
             seen[item] = idx
 
         return []
-        
-        
-        

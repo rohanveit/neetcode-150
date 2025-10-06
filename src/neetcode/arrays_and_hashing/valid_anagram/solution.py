@@ -16,4 +16,3 @@ class Solution(object):
         if s_occ == t_occ:
             return True
         return False
-        
