@@ -22,7 +22,7 @@ jobs:
         uv sync
     - name: Run pre-commit checks
       run: |
-        uv run pre-commit run
+        uv run pre-commit run --all-files
     - name: Test with pytest
       run: |
         uv run pytest
