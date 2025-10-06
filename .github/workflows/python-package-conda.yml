@@ -20,6 +20,9 @@ jobs:
     - name: Install dependencies
       run: |
         uv sync
+    - name: Run pre-commit checks
+      run: |
+        uv run pre-commit run
     - name: Test with pytest
       run: |
         uv run pytest
